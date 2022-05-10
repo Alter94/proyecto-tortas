@@ -112,7 +112,7 @@ h2 {
 }
 
 iframe {
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
@@ -319,7 +319,10 @@ body {
         margin: 20rem auto;
 
     }
-
+    main {
+        height: auto;
+        margin: auto;
+    }
     h1 {
         margin: 5rem auto;
     }
@@ -334,7 +337,7 @@ body {
 
     iframe {
         display: flex;
-        margin: auto;
+        margin: 10rem auto;
         width: 750px;
         height: 600px;
     }
@@ -357,6 +360,7 @@ body {
 
     #carouselExampleControls {
         width: 800px;
+        margin: auto;
     }
 
     .list-group {
