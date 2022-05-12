@@ -126,7 +126,7 @@ body {
 }
 
 body {
-    background: #a27bcc;
+    background-image: #a27bcc;
     background: -moz-radial-gradient(center, ellipse cover, #a27bcc 0%, #6c5299 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #a27bcc), color-stop(100%, #6c5299));
     background: -webkit-radial-gradient(center, ellipse cover, #a27bcc 0%, #6c5299 100%);
@@ -366,4 +366,5 @@ body {
     .list-group {
         margin: 20rem auto;
     }
+    
 }
