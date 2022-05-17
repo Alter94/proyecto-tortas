@@ -319,10 +319,12 @@ body {
         margin: 20rem auto;
 
     }
+
     main {
         height: auto;
         margin: auto;
     }
+
     h1 {
         margin: 5rem auto;
     }
@@ -333,6 +335,7 @@ body {
 
     h3 {
         margin: 15rem auto;
+        width: 500px;
     }
 
     iframe {
@@ -347,6 +350,10 @@ body {
         justify-content: center;
         position: center;
     }
+
+    body {
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -358,6 +365,14 @@ body {
         width: 500px;
     }
 
+    body {
+        height: auto;
+    }
+
+    .iconos {
+        padding: 50px;
+    }
+
     #carouselExampleControls {
         width: 800px;
         margin: auto;
@@ -366,5 +381,5 @@ body {
     .list-group {
         margin: 20rem auto;
     }
-    
+
 }
