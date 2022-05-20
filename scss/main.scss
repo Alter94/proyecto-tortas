@@ -1,4 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300italic";
+@import url(../css/footer.css);
+@import url(../css/titulos.css);
 
 $color-primary: rgb(63, 94, 251);
 $color-secondary: black;
@@ -81,15 +83,6 @@ footer {
 
 #carouselExampleControls {
     margin: 10rem auto;
-}
-
-$redes: (twitter: #000 facebook: #000 whatsapp: #000);
-
-@each $red,
-$color in $redes {
-    .btn--#{$red} {
-        color: $color;
-    }
 }
 
 .facebook {
