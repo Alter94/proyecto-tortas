@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300italic";
-@import url(../footer.scss);
-@import url(../titulos.scss);
+@import url(footer.scss);
+@import url(titulos.scss);
 
 $color-primary: rgb(63, 94, 251);
 $color-secondary: black;
@@ -54,9 +54,6 @@ h1 {
     z-index: 0;
 }
 
-main {
-    height: 100vh;
-}
 
 footer {
     display: flex;

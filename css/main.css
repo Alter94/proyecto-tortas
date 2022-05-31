@@ -1,6 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300italic";
-@import url(../css/footer.css);
-@import url(../css/titulos.css);
 @-webkit-keyframes fuego {
   0% {
     background: rgba(254, 248, 97, 0.5);
@@ -36,8 +34,6 @@ h1 {
   text-align: center;
   z-index: 0; }
 
-main {
-  height: 100vh; }
 
 footer {
   display: flex;
@@ -61,10 +57,12 @@ footer {
 #carouselExampleControls {
   margin: 10rem auto; }
 
-.facebook img, .whatsapp img img, .instagram img img {
+.facebook img, .whatsapp img, .instagram img {
   border-radius: 50%;
   height: 70px;
-  padding: 15px; }
+  padding: 15px;
+  width: 70px
+ }
 
 .facebook a, .whatsapp img a, .instagram img a {
   font-size: 25px;
