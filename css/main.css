@@ -97,8 +97,8 @@ h2 {
   text-align: center; }
 
 iframe {
-  height: 100%;
-  width: 400px; }
+  height: 500px;
+  width: 100%; }
 
 html {
   height: 100%; }
